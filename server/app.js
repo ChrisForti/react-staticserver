@@ -8,7 +8,7 @@ app.get("/api", (req, res) => {
 
 app.use("/", express.static(path.join(__dirname, "/react-app/build")));
 
-app.use("/website", express.static(path.join(__dirname, "/docs")));
+app.use("/website", express.static(path.join(__dirname, "docs")));
 
 app.use((req, res) => {
   res.status(404);
@@ -16,5 +16,5 @@ app.use((req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("App is listening on port 3000");
+  console.log("App is listening on localhost:3000");
 });
