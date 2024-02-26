@@ -8,7 +8,7 @@ app.get("/api", (req, res) => {
 
 app.use("/", express.static(path.join(__dirname, "/react-app/build")));
 
-app.use("/website", express.static(path.join(__dirname, "/docs")));
+app.use("/website", express.static(path.join(__dirname, "docs")));
 
 app.use((req, res) => {
   res.status(404);
