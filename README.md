@@ -4,5 +4,6 @@
 
 Navigate to the server folder:
 `cd server`
+
 To run dev:
 `node app`
