@@ -15,9 +15,9 @@
 # Usage
 
 - When deployed locally:
-  `https://chrisforti.github.io/sunday-funday/` is `(/root)` and is were the react-app lives.
-  `https://chrisforti.github.io/sunday-funday/website` is a static website.
-  `https://chrisforti.github.io/sunday-funday/api` is my API endpoint.
+  - `https://chrisforti.github.io/sunday-funday/` is `(/root)` and is were the react-app lives.
+  - `https://chrisforti.github.io/sunday-funday/website` is a static website.
+  - `https://chrisforti.github.io/sunday-funday/api` is my API endpoint.
 
 ### Built with
 
