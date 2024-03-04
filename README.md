@@ -1,4 +1,4 @@
-## This code uses nodejs and express as the backend,a nd uses react as the front end.
+## This code uses nodejs and express as the backend, and uses react as the front end.
 
 # To run dev:
 
